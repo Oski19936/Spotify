@@ -39,7 +39,7 @@ module.exports = async function removeDuplicates(playlistId) {
   dupeGroups.forEach((g) => {
     // sortujemy po pozycji rosnąco
     g.sort((a, b) => a.pos - b.pos);
-    const lines = g.map((t) => `"${t.name}" [poz:${t.pos}]`).join(", ");
+    const lines = g.map((t) => `"${t.name}" [poz:${t.pos}, URI:${t.uri.slice(-10)}]`).join(", ");
     console.log(` • ${lines}`);
   });
 
@@ -76,37 +76,48 @@ module.exports = async function removeDuplicates(playlistId) {
   // aby usuwanie nie wpływało na pozycje wcześniejszych utworów
   allDuplicatesToRemove.sort((a, b) => b.pos - a.pos);
   
-  // Usuń duplikaty jeden po drugim używając pozycji
+  console.log(chalk.blue(`🔍 DEBUG: Kolejność usuwania pozycji: ${allDuplicatesToRemove.map(d => d.pos).join(', ')}`));
+  
+  // Grupuj utwory według URI i pozycji dla batch removal
+  const tracksMap = {};
   for (const duplicate of allDuplicatesToRemove) {
-    let done = false;
-    
-    while (!done) {
-      await ensureToken();
-      try {
-        // Usuń konkretną pozycję tego utworu - format jak w removeTracks.js
-        const trackToRemove = { uri: duplicate.uri, positions: [duplicate.pos] };
-        await spotifyApi.removeTracksFromPlaylist(playlistId, [trackToRemove]);
-        removedCount++;
-        done = true;
-        console.log(
-          chalk.magenta(`🗑  Usunięto duplikat "${duplicate.name}" (poz:${duplicate.pos})`)
+    const uri = duplicate.uri;
+    if (!tracksMap[uri]) tracksMap[uri] = [];
+    tracksMap[uri].push(duplicate.pos);
+  }
+  
+  // Przygotuj format dla batch removal
+  const toRemove = Object.entries(tracksMap).map(([uri, positions]) => ({
+    uri,
+    positions: positions.sort((a, b) => b - a) // sortuj pozycje od najwyższej
+  }));
+  
+  console.log(chalk.blue(`🔍 DEBUG: Batch removal:`, toRemove.map(t => `URI:${t.uri.slice(-10)} pos:[${t.positions.join(',')}]`).join(', ')));
+  
+  // Wykonaj batch removal
+  let done = false;
+  while (!done) {
+    await ensureToken();
+    try {
+      await spotifyApi.removeTracksFromPlaylist(playlistId, toRemove);
+      removedCount = allDuplicatesToRemove.length;
+      done = true;
+      console.log(chalk.magenta(`🗑  Usunięto ${removedCount} duplikatów w batch operation`));
+    } catch (err) {
+      if (err.statusCode === 429) {
+        const retry = parseInt(err.headers["retry-after"], 10) || 1;
+        console.warn(
+          chalk.yellow(
+            `⏱  Rate limit, czekam ${retry}s przed ponowną próbą...`
+          )
         );
-      } catch (err) {
-        if (err.statusCode === 429) {
-          const retry = parseInt(err.headers["retry-after"], 10) || 1;
-          console.warn(
-            chalk.yellow(
-              `⏱  Rate limit, czekam ${retry}s przed ponowną próbą...`
-            )
-          );
-          await new Promise((r) => setTimeout(r, retry * 1000));
-        } else {
-          console.error(
-            chalk.red("❌ Błąd przy usuwaniu duplikatu:"),
-            err.body || err.message || err
-          );
-          done = true; // porzucamy dalsze próby tego tracka
-        }
+        await new Promise((r) => setTimeout(r, retry * 1000));
+      } else {
+        console.error(
+          chalk.red("❌ Błąd przy usuwaniu duplikatów:"),
+          err.body || err.message || err
+        );
+        done = true; // porzucamy dalsze próby
       }
     }
   }
