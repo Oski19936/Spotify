@@ -1,0 +1,6 @@
+{
+  "clientId": "<WPROWADŹ_TUTAJ_CLIENT_ID>",
+  "clientSecret": "<WPROWADŹ_TUTAJ_CLIENT_SECRET>",
+  "redirectUri": "<WPROWADŹ_TUTAJ_REDIRECT_URI>",
+  "playlistId": "<WPROWADŹ_TUTAJ_DOMYŚLNĄ_PLAYLIST_ID>"
+}

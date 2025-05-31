@@ -1,0 +1,79 @@
+1. Listowanie piosenek tylko danego zespołu -> Zespół: Linking Park, Rok: 2000 -> Zwróciło piosenki Linkin Park, oraz mnóstwo innych. Dla takiego zapytania dodać przykładowo warunek "jeśli nazwa zespołu zdefiniowana -> to tylko zwraca odpowiedzi z tym zespołem, nie dodaje nikogo innego"
+
+2. Sprawdzanie tytułów -> Jeśli się powtarzają (a dzieje się tak, gdy popularity są różne dla 2 utworów), to zostaw ten, który ma większy popularity, a reszty nie wyświetlaj
+
+3. Dodanie funkcjonalności i podpowiedzi w programie -> Wciśnij tab aby zobaczyć możliwe gatunki (przy sekcji gatunki), lub country (listuje kody poszczególnych krajów)
+
+4. Bardziej zaawansowane metody filtrowania jako opcja dodatkowa. Po "country" następuje pytanie -> Czy chcesz skorzystać z zaawansowanych filtrów? -> Jeśli tak, to przechodzi do pozostałych funkcji. Jeśli nie, to pomija następne kategorie i przechodzi dalej
+
+5. Przetłumacz wszystko na język polski
+
+6. Przywróć widok logów z wcześniej.
+
+7. Najpierw przeanalizuj kod jaki był dotychczas i podczas edycji i dodawania nowych funkcjonalności upewnij się, że nic nie zostało usunięte lub pominięte
+
+8. Skrypt sprawdzający duplikaty - sprawdza piosenki na danej playliście, jeśli dla danego zespołu jest taka sama piosenka to informuje o tym "Znaleziono x duplikatów - oto one (wypisuje je) - pyta czy usunąć duplikat -> następnie następuje zatwierdzenie tak / nie
+
+
+
+9. Funkcjonalność szukanie nie tylko piosenek, ale i zespołów / artystów np. po danym gatunku, czy roku produkcji.
+
+10. Po pomyślnym zapisaniu piosenek do songs.txt, skrypt ma zapytać czy chcę je dodać do playlisty czy wrócić do wyszukiwania (skrypt wtedy dodaje następne piosenki do songs.txt oczywiście nie usuwając poprzednich wpisów) i potem znowu pyta czy zapisać, czy znowu szukać.
+
+
+11. Stworzenie menu -> Wybór opcji co ma skrypt wykonać:
+1. "Wyszukaj piosenek" Domyślne działanie skryptu, czyli to co robi teraz
+2. "Szukaj artystów / zespołów" - Funkcjonalność szukanie nie tylko piosenek, ale i zespołów / artystów np. po danym gatunku, czy roku produkcji.
+3. "Usuń duplikaty na playliście" Funkcję usuwania duplikatów przenieś do osobnej funkcji i ma być wywołana jeśli zostanie wybrana w menu.
+4. "Sortowanie utworów na playliście"
+5. "Usuwanie utworów z playlisty"
+6. Wybór playlisty (?) raczej przed menu
+
+
+
+------------------------------------------------------------------------------------------------------------------
+❌	Ma pokazywać logi danej operacji - co jest w danym momencie wykonywane podczas dodawania do playlisty. Albo możliwość włączenia debugu
+------------------------------------------------------------------------------------------------------------------
+✔	? Podaj nazwę nowej playlisty: Mimisiowe
+------------------------------------------------------------------------------------------------------------------
+✔	❌ Błąd tworzenia playlisty: Cannot read properties of undefined (reading 'body')
+------------------------------------------------------------------------------------------------------------------
+❌	Poprawka do wyszukiwania artystów/zespołów
+	Sortuj od razu po popularności i wylistuj około 100, zamiast 20. Plus dodaj opcję zaznaczenia danego artysty -> Po zatwierdzeniu dla 	każdego z nich wylistuje po 15 najpopularniejszych utworów. Jeśli autor nie ma tylu tytułów to mniej i da informację, że brak większej 	ilości utworów dla danego artysty
+------------------------------------------------------------------------------------------------------------------
+❌	Poprawka do sortowania -> Zapamiętuj domyślną i obecną listę, tak aby po wprowadzeniu sortowania można je było przywrócić do wcześniejszego 	stanu
+------------------------------------------------------------------------------------------------------------------
+✔	Bardziej czytelne logi, entery itp
+	Zgłaszanie jiry i integracja z github
+------------------------------------------------------------------------------------------------------------------
+❌	Usuwanie duplikatów - usuwa obie wersje
+------------------------------------------------------------------------------------------------------------------
+❌	Dodanie ilości wyświetleń
+------------------------------------------------------------------------------------------------------------------
+✔	Widok playlist, podzielić na osobne kolumny - nazwa playlisty i ilość utworów (grafika)
+------------------------------------------------------------------------------------------------------------------
+✔	Przy zwróconej liście piosenek i opcji zaznaczenia wszystkich, dodaj funkcję która daje możliwość zaznaczenia wszystkich z wykluczeniem 	piosenek, które mają już ✔ czyli są już na playliście
+------------------------------------------------------------------------------------------------------------------
+❌	Po dodaniu piosenki, daj logi, oraz daj enter aby potwierdzić przejscie do menu głównego
+------------------------------------------------------------------------------------------------------------------
+❌	W 4. Sortowanie dodać opcję powrotu do menu głównego
+------------------------------------------------------------------------------------------------------------------
+✔	Dodawanie / usuwanie z playlist - podsumowanie ma być od entera, dla czytelności
+------------------------------------------------------------------------------------------------------------------
+❌	Weryfikacja szukania po gatunku muzycznym i listowaniu go na zwrotce
+------------------------------------------------------------------------------------------------------------------
+❌	Dodanie do repo, ale tak aby ktoś bez mojej wiedzy nie mógł uruchomić programu i bez danych wrażliwych. Ma być mail kontaktowy. Obstrukcja
+------------------------------------------------------------------------------------------------------------------
+✔	Powrót z "drugiej" listy do poprzedniego menu
+------------------------------------------------------------------------------------------------------------------
+✔	Dodanie możliwości wyboru ilości utworów jakie zostaną wylistowane
+------------------------------------------------------------------------------------------------------------------
+✔ 	Dopytanie o jakiś przykładowy utwór, żeby zwrócił jak najwięcej dostępnych informacji z pomocą API w formacie JSON, aby można było 	zweryfikować co można wyciągnąć z api 
+❌	(POŁĄCZENIE Z GŁÓWNĄ APLIKACJĄ)
+------------------------------------------------------------------------------------------------------------------
+✔ 	Wyświetl szczegóły na temat danej piosenki (checklista) co ma być zwrócone
+❌	(POŁĄCZENIE Z GŁÓWNĄ APLIKACJĄ)
+------------------------------------------------------------------------------------------------------------------
+❌	Usunięcie wyszukiwania po kraju (nie ma tego w api)
+------------------------------------------------------------------------------------------------------------------
+❌	dodawanie "polecanych" ?

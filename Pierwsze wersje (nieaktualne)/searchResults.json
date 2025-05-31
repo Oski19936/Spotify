@@ -1,0 +1,354 @@
+{
+  "genre:pop": [
+    {
+      "uri": "spotify:track:4dbp2q4IPbDvmDlECn3Xii",
+      "name": "Szum",
+      "artists": "Kaśka Sochacka",
+      "album": "Szum",
+      "popularity": 66
+    },
+    {
+      "uri": "spotify:track:3IQN4rjqZlmJgO4exMkaNT",
+      "name": "Miłość jest ślepa",
+      "artists": "sanah",
+      "album": "Kaprysy",
+      "popularity": 68
+    },
+    {
+      "uri": "spotify:track:5OC347cwcGpiwnHt0YmToq",
+      "name": "było, minęło",
+      "artists": "sanah",
+      "album": "Kaprysy",
+      "popularity": 65
+    },
+    {
+      "uri": "spotify:track:3VZQshi4COChhXaz7cLP02",
+      "name": "I Love It (feat. Charli XCX)",
+      "artists": "Icona Pop, Charli xcx",
+      "album": "I Love It (feat. Charli XCX)",
+      "popularity": 71
+    },
+    {
+      "uri": "spotify:track:3SKH53SPQbEnZR4cJPVaz2",
+      "name": "Messy",
+      "artists": "Lola Young",
+      "album": "Messy",
+      "popularity": 92
+    },
+    {
+      "uri": "spotify:track:64F1Z2LAsf04V346A75hi1",
+      "name": "I Ciebie też, bardzo (feat. Daria Zawiałow, Dawid Podsiadło & Vito Bambino)",
+      "artists": "Męskie Granie Orkiestra, Daria Zawiałow, Dawid Podsiadło, Vito Bambino",
+      "album": "I Ciebie też, bardzo (feat. Daria Zawiałow, Dawid Podsiadło & Vito Bambino)",
+      "popularity": 65
+    },
+    {
+      "uri": "spotify:track:57yL3161hUMuw06zzzUCHi",
+      "name": "Doubt",
+      "artists": "Twenty One Pilots",
+      "album": "Blurryface",
+      "popularity": 85
+    },
+    {
+      "uri": "spotify:track:1MsoH4Fz8O9PKbTW5SkXbJ",
+      "name": "och i ach",
+      "artists": "Sylwia Grzeszczak",
+      "album": "och i ach",
+      "popularity": 65
+    },
+    {
+      "uri": "spotify:track:4srUcUkIP3NejBuRvQz3Gv",
+      "name": "Niebo było różowe",
+      "artists": "Kaśka Sochacka",
+      "album": "Ministory",
+      "popularity": 64
+    },
+    {
+      "uri": "spotify:track:2qSkIjg1o9h3YT9RAgYN75",
+      "name": "Espresso",
+      "artists": "Sabrina Carpenter",
+      "album": "Espresso",
+      "popularity": 90
+    },
+    {
+      "uri": "spotify:track:3JvKfv6T31zO0ini8iNItO",
+      "name": "Another Love",
+      "artists": "Tom Odell",
+      "album": "Long Way Down (Deluxe)",
+      "popularity": 89
+    },
+    {
+      "uri": "spotify:track:1Wh2SwNbe3OQCoskPc3fD8",
+      "name": "Tam słońce, gdzie my",
+      "artists": "Wiktor Dyduła",
+      "album": "Tam słońce, gdzie my",
+      "popularity": 65
+    },
+    {
+      "uri": "spotify:track:2plbrEY59IikOBgBGLjaoe",
+      "name": "Die With A Smile",
+      "artists": "Lady Gaga, Bruno Mars",
+      "album": "Die With A Smile",
+      "popularity": 98
+    },
+    {
+      "uri": "spotify:track:5G7d637BU8TQbUjcE1qjMt",
+      "name": "B012",
+      "artists": "Bletka",
+      "album": "B012",
+      "popularity": 64
+    },
+    {
+      "uri": "spotify:track:3bK1zVFBKIzYjmptmI4NsJ",
+      "name": "Overdrive (feat. Norma Jean Martine)",
+      "artists": "Ofenbach, Norma Jean Martine",
+      "album": "Overdrive (feat. Norma Jean Martine)",
+      "popularity": 82
+    },
+    {
+      "uri": "spotify:track:6dOtVTDdiauQNBQEDOtlAB",
+      "name": "BIRDS OF A FEATHER",
+      "artists": "Billie Eilish",
+      "album": "HIT ME HARD AND SOFT",
+      "popularity": 100
+    },
+    {
+      "uri": "spotify:track:0WbMK4wrZ1wFSty9F7FCgu",
+      "name": "Good Luck, Babe!",
+      "artists": "Chappell Roan",
+      "album": "Good Luck, Babe!",
+      "popularity": 95
+    },
+    {
+      "uri": "spotify:track:6LuOCaMHFBfaR1MLKNHhMA",
+      "name": "Zanim pójdę",
+      "artists": "Happysad",
+      "album": "Wszystko jedno",
+      "popularity": 65
+    },
+    {
+      "uri": "spotify:track:0peRfvtx1Je91FxQtii5DJ",
+      "name": "Chyba że z Tobą",
+      "artists": "MODELKI, Vłodarski",
+      "album": "Chyba że z Tobą",
+      "popularity": 68
+    },
+    {
+      "uri": "spotify:track:7BRD7x5pt8Lqa1eGYC4dzj",
+      "name": "CHIHIRO",
+      "artists": "Billie Eilish",
+      "album": "HIT ME HARD AND SOFT",
+      "popularity": 91
+    },
+    {
+      "uri": "spotify:track:2262bWmqomIaJXwCRHr13j",
+      "name": "Sailor Song",
+      "artists": "Gigi Perez",
+      "album": "Sailor Song",
+      "popularity": 94
+    },
+    {
+      "uri": "spotify:track:1kuhnhugcuXf4CiNdqCRUU",
+      "name": "BFF",
+      "artists": "bambi, Young Leosia, PG$, @atutowy",
+      "album": "BFF",
+      "popularity": 64
+    },
+    {
+      "uri": "spotify:track:2tpWsVSb9UEmDRxAl1zhX1",
+      "name": "Counting Stars",
+      "artists": "OneRepublic",
+      "album": "Native",
+      "popularity": 90
+    },
+    {
+      "uri": "spotify:track:3QaPy1KgI7nu9FJEQUgn6h",
+      "name": "WILDFLOWER",
+      "artists": "Billie Eilish",
+      "album": "HIT ME HARD AND SOFT",
+      "popularity": 96
+    },
+    {
+      "uri": "spotify:track:6rCz0E0G6El6irdft7Zjgp",
+      "name": "Falochrony",
+      "artists": "Roxie, Mata",
+      "album": "Falochrony",
+      "popularity": 66
+    },
+    {
+      "uri": "spotify:track:7MmG8p0F9N3C4AXdK6o6Eb",
+      "name": "Outside (feat. Ellie Goulding)",
+      "artists": "Calvin Harris, Ellie Goulding",
+      "album": "Motion",
+      "popularity": 88
+    },
+    {
+      "uri": "spotify:track:0ByMNEPAPpOR5H69DVrTNy",
+      "name": "Don't Stop The Music",
+      "artists": "Rihanna",
+      "album": "Good Girl Gone Bad: Reloaded",
+      "popularity": 86
+    },
+    {
+      "uri": "spotify:track:2QjOHCTQ1Jl3zawyYOpxh6",
+      "name": "Sweater Weather",
+      "artists": "The Neighbourhood",
+      "album": "I Love You.",
+      "popularity": 93
+    },
+    {
+      "uri": "spotify:track:3cHyrEgdyYRjgJKSOiOtcS",
+      "name": "Timber",
+      "artists": "Pitbull, Kesha",
+      "album": "Global Warming: Meltdown (Deluxe Version)",
+      "popularity": 87
+    },
+    {
+      "uri": "spotify:track:4wH4dJgrsxONID6KS2tDQM",
+      "name": "Maneater",
+      "artists": "Nelly Furtado",
+      "album": "Loose",
+      "popularity": 86
+    },
+    {
+      "uri": "spotify:track:1QV6tiMFM6fSOKOGLMHYYg",
+      "name": "Poker Face",
+      "artists": "Lady Gaga",
+      "album": "The Fame",
+      "popularity": 89
+    },
+    {
+      "uri": "spotify:track:7ySUcLPVX7KudhnmNcgY2D",
+      "name": "S&M",
+      "artists": "Rihanna",
+      "album": "Loud (Japan Version)",
+      "popularity": 85
+    },
+    {
+      "uri": "spotify:track:0Hf4aIJpsN4Os2f0y0VqWl",
+      "name": "Feel This Moment (feat. Christina Aguilera)",
+      "artists": "Pitbull, Christina Aguilera",
+      "album": "Global Warming: Meltdown (Deluxe Version)",
+      "popularity": 85
+    },
+    {
+      "uri": "spotify:track:7CyPwkp0oE8Ro9Dd5CUDjW",
+      "name": "One Of The Girls (with JENNIE, Lily Rose Depp)",
+      "artists": "The Weeknd, JENNIE, Lily-Rose Depp",
+      "album": "The Idol Episode 4 (Music from the HBO Original Series)",
+      "popularity": 94
+    },
+    {
+      "uri": "spotify:track:46aZJc0z1HHHSFxaIRxYSP",
+      "name": "Breakin' Dishes",
+      "artists": "Rihanna",
+      "album": "Good Girl Gone Bad: Reloaded",
+      "popularity": 87
+    },
+    {
+      "uri": "spotify:track:1dzQoRqT5ucxXVaAhTcT0J",
+      "name": "Just Dance",
+      "artists": "Lady Gaga, Colby O'Donis",
+      "album": "The Fame",
+      "popularity": 87
+    },
+    {
+      "uri": "spotify:track:6esBajH4pfY0i61Vr53QWR",
+      "name": "On Me",
+      "artists": "MODELKI, Vłodarski",
+      "album": "On Me",
+      "popularity": 64
+    },
+    {
+      "uri": "spotify:track:4588ZH7944EUrbDvdkr2sA",
+      "name": "Złamane serce jest OK",
+      "artists": "Daria Zawiałow",
+      "album": "Dziewczyna Pop",
+      "popularity": 62
+    },
+    {
+      "uri": "spotify:track:2K7xn816oNHJZ0aVqdQsha",
+      "name": "Softcore",
+      "artists": "The Neighbourhood",
+      "album": "Hard To Imagine The Neighbourhood Ever Changing",
+      "popularity": 88
+    },
+    {
+      "uri": "spotify:track:2A4d6vp3I61jSEv8Ty9c8x",
+      "name": "Ballada o Niej",
+      "artists": "Daria Zawiałow",
+      "album": "Dziewczyna Pop",
+      "popularity": 63
+    },
+    {
+      "uri": "spotify:track:3mzugJrKyhJNzZKS0RgWBg",
+      "name": "MILLIE WALKY",
+      "artists": "bambi, charlie moncler",
+      "album": "in real life",
+      "popularity": 65
+    },
+    {
+      "uri": "spotify:track:2Bvmq94ifFUXQmaFPR5Vis",
+      "name": "PG$",
+      "artists": "Young Leosia, bambi, PG$, francis",
+      "album": "PG$",
+      "popularity": 63
+    },
+    {
+      "uri": "spotify:track:2ENexcMEMsYk0rVJigVD3i",
+      "name": "Only Girl (In The World)",
+      "artists": "Rihanna",
+      "album": "Loud (Japan Version)",
+      "popularity": 87
+    },
+    {
+      "uri": "spotify:track:6A6537BwTdiRefKxjYyYAD",
+      "name": "Nie mogę cię zapomnieć - Radio Edit",
+      "artists": "Agnieszka Chylińska",
+      "album": "Nie Moge Cie Zapomniec",
+      "popularity": 66
+    },
+    {
+      "uri": "spotify:track:5E30LdtzQTGqRvNd7l6kG5",
+      "name": "Daddy Issues",
+      "artists": "The Neighbourhood",
+      "album": "Wiped Out!",
+      "popularity": 87
+    },
+    {
+      "uri": "spotify:track:4QNpBfC0zvjKqPJcyqBy9W",
+      "name": "Give Me Everything (feat. Nayer)",
+      "artists": "Pitbull, AFROJACK, Ne-Yo, Nayer",
+      "album": "Planet Pit (Deluxe Version)",
+      "popularity": 90
+    },
+    {
+      "uri": "spotify:track:0MTTFee7cTSd46njlPKBZe",
+      "name": "Przester",
+      "artists": "Young Leosia, bambi, PG$, francis",
+      "album": "PG$",
+      "popularity": 67
+    },
+    {
+      "uri": "spotify:track:35ISBknsCeZQtq66xABI9g",
+      "name": "Messy",
+      "artists": "Lola Young",
+      "album": "This Wasn't Meant For You Anyway",
+      "popularity": 90
+    },
+    {
+      "uri": "spotify:track:2bJvI42r8EF3wxjOuDav4r",
+      "name": "Time of Our Lives",
+      "artists": "Pitbull, Ne-Yo",
+      "album": "Globalization",
+      "popularity": 87
+    },
+    {
+      "uri": "spotify:track:3CgWmnnox6kF0NvJpZWSv8",
+      "name": "Te numery",
+      "artists": "Young Leosia, bambi, PG$, francis",
+      "album": "PG$",
+      "popularity": 63
+    }
+  ]
+}

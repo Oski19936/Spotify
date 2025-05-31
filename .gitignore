@@ -1,0 +1,12 @@
+# Node_modules (zależności)
+/node_modules
+
+# Spotify tokens
+/tokens.json
+
+# Plik config.json jeżeli zawiera clientSecret lub refresh_token
+/config.json
+
+# Dodatkowe pliki tymczasowe  
+npm-debug.log*
+.env
