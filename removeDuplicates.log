@@ -1,0 +1,422 @@
+[2025-05-31T14:19:05.703Z] [INFO] Uruchomiono removeDuplicates() dla playlistId: 5OfSllCp6i3ZAKrb2jUSZo
+[2025-05-31T14:19:05.704Z] [DEBUG] Sprawdzam/odświeżam token Spotify…
+[2025-05-31T14:19:05.704Z] [DEBUG] Token Spotify OK.
+[2025-05-31T14:19:05.705Z] [INFO] Pobieram wszystkie utwory z playlisty (fetchAllExisting)…
+[2025-05-31T14:19:06.607Z] [INFO] Pobrano 134 utworów z playlisty (ID: 5OfSllCp6i3ZAKrb2jUSZo).
+[2025-05-31T14:19:06.608Z] [INFO] Rozpoczynam grupowanie duplikatów (po identycznym URI)…
+[2025-05-31T14:19:06.608Z] [DEBUG] Analizuję URI: spotify:track:5nujrmhLynf4yMoMtj8AQF (pos = 0)
+[2025-05-31T14:19:06.609Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5nujrmhLynf4yMoMtj8AQF (zostawiam)
+[2025-05-31T14:19:06.610Z] [DEBUG] Analizuję URI: spotify:track:1zB4vmk8tFRmM9UULNzbLB (pos = 1)
+[2025-05-31T14:19:06.610Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1zB4vmk8tFRmM9UULNzbLB (zostawiam)
+[2025-05-31T14:19:06.610Z] [DEBUG] Analizuję URI: spotify:track:0pqnGHJpmpxLKifKRmU6WP (pos = 2)
+[2025-05-31T14:19:06.611Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0pqnGHJpmpxLKifKRmU6WP (zostawiam)
+[2025-05-31T14:19:06.611Z] [DEBUG] Analizuję URI: spotify:track:5qaEfEh1AtSdrdrByCP7qR (pos = 3)
+[2025-05-31T14:19:06.611Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5qaEfEh1AtSdrdrByCP7qR (zostawiam)
+[2025-05-31T14:19:06.612Z] [DEBUG] Analizuję URI: spotify:track:6Qn5zhYkTa37e91HC1D7lb (pos = 4)
+[2025-05-31T14:19:06.612Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6Qn5zhYkTa37e91HC1D7lb (zostawiam)
+[2025-05-31T14:19:06.612Z] [DEBUG] Analizuję URI: spotify:track:2RSHsoi04658QL5xgQVov3 (pos = 5)
+[2025-05-31T14:19:06.613Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2RSHsoi04658QL5xgQVov3 (zostawiam)
+[2025-05-31T14:19:06.613Z] [DEBUG] Analizuję URI: spotify:track:2FY7b99s15jUprqC0M5NCT (pos = 6)
+[2025-05-31T14:19:06.613Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2FY7b99s15jUprqC0M5NCT (zostawiam)
+[2025-05-31T14:19:06.614Z] [DEBUG] Analizuję URI: spotify:track:62yJjFtgkhUrXktIoSjgP2 (pos = 7)
+[2025-05-31T14:19:06.614Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:62yJjFtgkhUrXktIoSjgP2 (zostawiam)
+[2025-05-31T14:19:06.614Z] [DEBUG] Analizuję URI: spotify:track:213x4gsFDm04hSqIUkg88w (pos = 8)
+[2025-05-31T14:19:06.614Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:213x4gsFDm04hSqIUkg88w (zostawiam)
+[2025-05-31T14:19:06.615Z] [DEBUG] Analizuję URI: spotify:track:4dASQiO1Eoo3RJvt74FtXB (pos = 9)
+[2025-05-31T14:19:06.615Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4dASQiO1Eoo3RJvt74FtXB (zostawiam)
+[2025-05-31T14:19:06.615Z] [DEBUG] Analizuję URI: spotify:track:7MXlTgQeo3IVlMpLnZuhxc (pos = 10)
+[2025-05-31T14:19:06.616Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7MXlTgQeo3IVlMpLnZuhxc (zostawiam)
+[2025-05-31T14:19:06.616Z] [DEBUG] Analizuję URI: spotify:track:1sWeSMifj6Z6kZyI6z3bRc (pos = 11)
+[2025-05-31T14:19:06.616Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1sWeSMifj6Z6kZyI6z3bRc (zostawiam)
+[2025-05-31T14:19:06.616Z] [DEBUG] Analizuję URI: spotify:track:6Tvzf3VEi16JMhAgOwdt2y (pos = 12)
+[2025-05-31T14:19:06.617Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6Tvzf3VEi16JMhAgOwdt2y (zostawiam)
+[2025-05-31T14:19:06.617Z] [DEBUG] Analizuję URI: spotify:track:0LtkAAEpEp1lkLX1ZvjHZb (pos = 13)
+[2025-05-31T14:19:06.617Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0LtkAAEpEp1lkLX1ZvjHZb (zostawiam)
+[2025-05-31T14:19:06.618Z] [DEBUG] Analizuję URI: spotify:track:1y3bE5i57eUm3hfLAc7h08 (pos = 14)
+[2025-05-31T14:19:06.618Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1y3bE5i57eUm3hfLAc7h08 (zostawiam)
+[2025-05-31T14:19:06.618Z] [DEBUG] Analizuję URI: spotify:track:1VMBapbhHidf6ALFszT7w1 (pos = 15)
+[2025-05-31T14:19:06.618Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1VMBapbhHidf6ALFszT7w1 (zostawiam)
+[2025-05-31T14:19:06.619Z] [DEBUG] Analizuję URI: spotify:track:2tpWsVSb9UEmDRxAl1zhX1 (pos = 16)
+[2025-05-31T14:19:06.619Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2tpWsVSb9UEmDRxAl1zhX1 (zostawiam)
+[2025-05-31T14:19:06.619Z] [DEBUG] Analizuję URI: spotify:track:6q3zC9dDD4lUNk8nfUztXy (pos = 17)
+[2025-05-31T14:19:06.620Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6q3zC9dDD4lUNk8nfUztXy (zostawiam)
+[2025-05-31T14:19:06.620Z] [DEBUG] Analizuję URI: spotify:track:6D8y7Bck8h11byRY88Pt2z (pos = 18)
+[2025-05-31T14:19:06.620Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6D8y7Bck8h11byRY88Pt2z (zostawiam)
+[2025-05-31T14:19:06.620Z] [DEBUG] Analizuję URI: spotify:track:2ekn2ttSfGqwhhate0LSR0 (pos = 19)
+[2025-05-31T14:19:06.621Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2ekn2ttSfGqwhhate0LSR0 (zostawiam)
+[2025-05-31T14:19:06.621Z] [DEBUG] Analizuję URI: spotify:track:1vYXt7VSjH9JIM5oRRo7vA (pos = 20)
+[2025-05-31T14:19:06.621Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1vYXt7VSjH9JIM5oRRo7vA (zostawiam)
+[2025-05-31T14:19:06.621Z] [DEBUG] Analizuję URI: spotify:track:6zSpb8dQRaw0M1dK8PBwQz (pos = 21)
+[2025-05-31T14:19:06.622Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6zSpb8dQRaw0M1dK8PBwQz (zostawiam)
+[2025-05-31T14:19:06.622Z] [DEBUG] Analizuję URI: spotify:track:76cy1WJvNGJTj78UqeA5zr (pos = 22)
+[2025-05-31T14:19:06.622Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:76cy1WJvNGJTj78UqeA5zr (zostawiam)
+[2025-05-31T14:19:06.622Z] [DEBUG] Analizuję URI: spotify:track:3ebXMykcMXOcLeJ9xZ17XH (pos = 23)
+[2025-05-31T14:19:06.623Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3ebXMykcMXOcLeJ9xZ17XH (zostawiam)
+[2025-05-31T14:19:06.623Z] [DEBUG] Analizuję URI: spotify:track:017PF4Q3l4DBUiWoXk4OWT (pos = 24)
+[2025-05-31T14:19:06.623Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:017PF4Q3l4DBUiWoXk4OWT (zostawiam)
+[2025-05-31T14:19:06.624Z] [DEBUG] Analizuję URI: spotify:track:4rPkN1FMzQyFNP9cLUGIIB (pos = 25)
+[2025-05-31T14:19:06.624Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4rPkN1FMzQyFNP9cLUGIIB (zostawiam)
+[2025-05-31T14:19:06.624Z] [DEBUG] Analizuję URI: spotify:track:7FCfMXYTIiQ9b4hDYs4Iol (pos = 26)
+[2025-05-31T14:19:06.624Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7FCfMXYTIiQ9b4hDYs4Iol (zostawiam)
+[2025-05-31T14:19:06.625Z] [DEBUG] Analizuję URI: spotify:track:2nLtzopw4rPReszdYBJU6h (pos = 27)
+[2025-05-31T14:19:06.625Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2nLtzopw4rPReszdYBJU6h (zostawiam)
+[2025-05-31T14:19:06.625Z] [DEBUG] Analizuję URI: spotify:track:4Yf5bqU3NK4kNOypcrLYwU (pos = 28)
+[2025-05-31T14:19:06.626Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4Yf5bqU3NK4kNOypcrLYwU (zostawiam)
+[2025-05-31T14:19:06.626Z] [DEBUG] Analizuję URI: spotify:track:18lR4BzEs7e3qzc0KVkTpU (pos = 29)
+[2025-05-31T14:19:06.626Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:18lR4BzEs7e3qzc0KVkTpU (zostawiam)
+[2025-05-31T14:19:06.626Z] [DEBUG] Analizuję URI: spotify:track:1EDPVGbyPKJPeGqATwXZvN (pos = 30)
+[2025-05-31T14:19:06.627Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1EDPVGbyPKJPeGqATwXZvN (zostawiam)
+[2025-05-31T14:19:06.627Z] [DEBUG] Analizuję URI: spotify:track:3fjmSxt0PskST13CSdBUFx (pos = 31)
+[2025-05-31T14:19:06.627Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3fjmSxt0PskST13CSdBUFx (zostawiam)
+[2025-05-31T14:19:06.628Z] [DEBUG] Analizuję URI: spotify:track:2HBBM75Xv3o2Mqdyh1NcM0 (pos = 32)
+[2025-05-31T14:19:06.628Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2HBBM75Xv3o2Mqdyh1NcM0 (zostawiam)
+[2025-05-31T14:19:06.628Z] [DEBUG] Analizuję URI: spotify:track:0UFDKFqW2oGspYeYqo9wjA (pos = 33)
+[2025-05-31T14:19:06.628Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0UFDKFqW2oGspYeYqo9wjA (zostawiam)
+[2025-05-31T14:19:06.629Z] [DEBUG] Analizuję URI: spotify:track:7oVEtyuv9NBmnytsCIsY5I (pos = 34)
+[2025-05-31T14:19:06.629Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7oVEtyuv9NBmnytsCIsY5I (zostawiam)
+[2025-05-31T14:19:06.629Z] [DEBUG] Analizuję URI: spotify:track:3dxiWIBVJRlqh9xk144rf4 (pos = 35)
+[2025-05-31T14:19:06.629Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3dxiWIBVJRlqh9xk144rf4 (zostawiam)
+[2025-05-31T14:19:06.630Z] [DEBUG] Analizuję URI: spotify:track:4qVR3CF8FuFvHN4L6vXlB1 (pos = 36)
+[2025-05-31T14:19:06.630Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4qVR3CF8FuFvHN4L6vXlB1 (zostawiam)
+[2025-05-31T14:19:06.630Z] [DEBUG] Analizuję URI: spotify:track:4CeeEOM32jQcH3eN9Q2dGj (pos = 37)
+[2025-05-31T14:19:06.631Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4CeeEOM32jQcH3eN9Q2dGj (zostawiam)
+[2025-05-31T14:19:06.631Z] [DEBUG] Analizuję URI: spotify:track:2RsAajgo0g7bMCHxwH3Sk0 (pos = 38)
+[2025-05-31T14:19:06.631Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2RsAajgo0g7bMCHxwH3Sk0 (zostawiam)
+[2025-05-31T14:19:06.632Z] [DEBUG] Analizuję URI: spotify:track:5vHLwhxxlGzmClMcxRRFPr (pos = 39)
+[2025-05-31T14:19:06.632Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5vHLwhxxlGzmClMcxRRFPr (zostawiam)
+[2025-05-31T14:19:06.632Z] [DEBUG] Analizuję URI: spotify:track:4gHnSNHs8RyVukKoWdS99f (pos = 40)
+[2025-05-31T14:19:06.633Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4gHnSNHs8RyVukKoWdS99f (zostawiam)
+[2025-05-31T14:19:06.633Z] [DEBUG] Analizuję URI: spotify:track:5sNESr6pQfIhL3krM8CtZn (pos = 41)
+[2025-05-31T14:19:06.633Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5sNESr6pQfIhL3krM8CtZn (zostawiam)
+[2025-05-31T14:19:06.634Z] [DEBUG] Analizuję URI: spotify:track:7qEHsqek33rTcFNT9PFqLf (pos = 42)
+[2025-05-31T14:19:06.634Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7qEHsqek33rTcFNT9PFqLf (zostawiam)
+[2025-05-31T14:19:06.634Z] [DEBUG] Analizuję URI: spotify:track:21jGcNKet2qwijlDFuPiPb (pos = 43)
+[2025-05-31T14:19:06.635Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:21jGcNKet2qwijlDFuPiPb (zostawiam)
+[2025-05-31T14:19:06.635Z] [DEBUG] Analizuję URI: spotify:track:6UelLqGlWMcVH1E5c4H7lY (pos = 44)
+[2025-05-31T14:19:06.635Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6UelLqGlWMcVH1E5c4H7lY (zostawiam)
+[2025-05-31T14:19:06.635Z] [DEBUG] Analizuję URI: spotify:track:6ocbgoVGwYJhOv1GgI9NsF (pos = 45)
+[2025-05-31T14:19:06.636Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6ocbgoVGwYJhOv1GgI9NsF (zostawiam)
+[2025-05-31T14:19:06.636Z] [DEBUG] Analizuję URI: spotify:track:2gMXnyrvIjhVBUZwvLZDMP (pos = 46)
+[2025-05-31T14:19:06.636Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2gMXnyrvIjhVBUZwvLZDMP (zostawiam)
+[2025-05-31T14:19:06.637Z] [DEBUG] Analizuję URI: spotify:track:3jjujdWJ72nww5eGnfs2E7 (pos = 47)
+[2025-05-31T14:19:06.637Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3jjujdWJ72nww5eGnfs2E7 (zostawiam)
+[2025-05-31T14:19:06.637Z] [DEBUG] Analizuję URI: spotify:track:2Fxmhks0bxGSBdJ92vM42m (pos = 48)
+[2025-05-31T14:19:06.637Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2Fxmhks0bxGSBdJ92vM42m (zostawiam)
+[2025-05-31T14:19:06.638Z] [DEBUG] Analizuję URI: spotify:track:6habFhsOp2NvshLv26DqMb (pos = 49)
+[2025-05-31T14:19:06.638Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6habFhsOp2NvshLv26DqMb (zostawiam)
+[2025-05-31T14:19:06.638Z] [DEBUG] Analizuję URI: spotify:track:0TK2YIli7K1leLovkQiNik (pos = 50)
+[2025-05-31T14:19:06.638Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0TK2YIli7K1leLovkQiNik (zostawiam)
+[2025-05-31T14:19:06.639Z] [DEBUG] Analizuję URI: spotify:track:2tnVG71enUj33Ic2nFN6kZ (pos = 51)
+[2025-05-31T14:19:06.639Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2tnVG71enUj33Ic2nFN6kZ (zostawiam)
+[2025-05-31T14:19:06.639Z] [DEBUG] Analizuję URI: spotify:track:3AJwUDP919kvQ9QcozQPxg (pos = 52)
+[2025-05-31T14:19:06.639Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3AJwUDP919kvQ9QcozQPxg (zostawiam)
+[2025-05-31T14:19:06.640Z] [DEBUG] Analizuję URI: spotify:track:6naxalmIoLFWR0siv8dnQQ (pos = 53)
+[2025-05-31T14:19:06.640Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6naxalmIoLFWR0siv8dnQQ (zostawiam)
+[2025-05-31T14:19:06.640Z] [DEBUG] Analizuję URI: spotify:track:3WkibOpDF7cQ5xntM1epyf (pos = 54)
+[2025-05-31T14:19:06.640Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3WkibOpDF7cQ5xntM1epyf (zostawiam)
+[2025-05-31T14:19:06.641Z] [DEBUG] Analizuję URI: spotify:track:7FDV5ELOJHCGLe52AnttEd (pos = 55)
+[2025-05-31T14:19:06.641Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7FDV5ELOJHCGLe52AnttEd (zostawiam)
+[2025-05-31T14:19:06.641Z] [DEBUG] Analizuję URI: spotify:track:2aGw77pZqli064JiPuXYRi (pos = 56)
+[2025-05-31T14:19:06.642Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2aGw77pZqli064JiPuXYRi (zostawiam)
+[2025-05-31T14:19:06.642Z] [DEBUG] Analizuję URI: spotify:track:6FLwmdmW77N1Pxb1aWsZmO (pos = 57)
+[2025-05-31T14:19:06.642Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6FLwmdmW77N1Pxb1aWsZmO (zostawiam)
+[2025-05-31T14:19:06.643Z] [DEBUG] Analizuję URI: spotify:track:7H3ojI1BsVy0dEJENqMt1k (pos = 58)
+[2025-05-31T14:19:06.643Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7H3ojI1BsVy0dEJENqMt1k (zostawiam)
+[2025-05-31T14:19:06.643Z] [DEBUG] Analizuję URI: spotify:track:62bOmKYxYg7dhrC6gH9vFn (pos = 59)
+[2025-05-31T14:19:06.643Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:62bOmKYxYg7dhrC6gH9vFn (zostawiam)
+[2025-05-31T14:19:06.644Z] [DEBUG] Analizuję URI: spotify:track:1H5tvpoApNDxvxDexoaAUo (pos = 60)
+[2025-05-31T14:19:06.644Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1H5tvpoApNDxvxDexoaAUo (zostawiam)
+[2025-05-31T14:19:06.644Z] [DEBUG] Analizuję URI: spotify:track:6urCAbunOQI4bLhmGpX7iS (pos = 61)
+[2025-05-31T14:19:06.645Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6urCAbunOQI4bLhmGpX7iS (zostawiam)
+[2025-05-31T14:19:06.645Z] [DEBUG] Analizuję URI: spotify:track:6si71supnBUhddjR2FJc2L (pos = 62)
+[2025-05-31T14:19:06.646Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6si71supnBUhddjR2FJc2L (zostawiam)
+[2025-05-31T14:19:06.646Z] [DEBUG] Analizuję URI: spotify:track:003vvx7Niy0yvhvHt4a68B (pos = 63)
+[2025-05-31T14:19:06.646Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:003vvx7Niy0yvhvHt4a68B (zostawiam)
+[2025-05-31T14:19:06.646Z] [DEBUG] Analizuję URI: spotify:track:561jH07mF1jHuk7KlaeF0s (pos = 64)
+[2025-05-31T14:19:06.647Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:561jH07mF1jHuk7KlaeF0s (zostawiam)
+[2025-05-31T14:19:06.647Z] [DEBUG] Analizuję URI: spotify:track:1SKPmfSYaPsETbRHaiA18G (pos = 65)
+[2025-05-31T14:19:06.647Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1SKPmfSYaPsETbRHaiA18G (zostawiam)
+[2025-05-31T14:19:06.648Z] [DEBUG] Analizuję URI: spotify:track:5rb9QrpfcKFHM1EUbSIurX (pos = 66)
+[2025-05-31T14:19:06.648Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5rb9QrpfcKFHM1EUbSIurX (zostawiam)
+[2025-05-31T14:19:06.648Z] [DEBUG] Analizuję URI: spotify:track:6nTiIhLmQ3FWhvrGafw2zj (pos = 67)
+[2025-05-31T14:19:06.649Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6nTiIhLmQ3FWhvrGafw2zj (zostawiam)
+[2025-05-31T14:19:06.649Z] [DEBUG] Analizuję URI: spotify:track:1v7L65Lzy0j0vdpRjJewt1 (pos = 68)
+[2025-05-31T14:19:06.649Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1v7L65Lzy0j0vdpRjJewt1 (zostawiam)
+[2025-05-31T14:19:06.650Z] [DEBUG] Analizuję URI: spotify:track:52Zr0sinhWTCRrQhRRY4EP (pos = 69)
+[2025-05-31T14:19:06.650Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:52Zr0sinhWTCRrQhRRY4EP (zostawiam)
+[2025-05-31T14:19:06.650Z] [DEBUG] Analizuję URI: spotify:track:1a8JpAL3vbAdXYrEABvOtb (pos = 70)
+[2025-05-31T14:19:06.651Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1a8JpAL3vbAdXYrEABvOtb (zostawiam)
+[2025-05-31T14:19:06.651Z] [DEBUG] Analizuję URI: spotify:track:0d28khcov6AiegSCpG5TuT (pos = 71)
+[2025-05-31T14:19:06.651Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0d28khcov6AiegSCpG5TuT (zostawiam)
+[2025-05-31T14:19:06.652Z] [DEBUG] Analizuję URI: spotify:track:3ZFTkvIE7kyPt6Nu3PEa7V (pos = 72)
+[2025-05-31T14:19:06.652Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3ZFTkvIE7kyPt6Nu3PEa7V (zostawiam)
+[2025-05-31T14:19:06.652Z] [DEBUG] Analizuję URI: spotify:track:7LVHVU3tWfcxj5aiPFEW4Q (pos = 73)
+[2025-05-31T14:19:06.652Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7LVHVU3tWfcxj5aiPFEW4Q (zostawiam)
+[2025-05-31T14:19:06.653Z] [DEBUG] Analizuję URI: spotify:track:5D2mYZuzcgjpchVY1pmTPh (pos = 74)
+[2025-05-31T14:19:06.653Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5D2mYZuzcgjpchVY1pmTPh (zostawiam)
+[2025-05-31T14:19:06.653Z] [DEBUG] Analizuję URI: spotify:track:2wGSgTmgSF3xjRrHkTc25R (pos = 75)
+[2025-05-31T14:19:06.654Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2wGSgTmgSF3xjRrHkTc25R (zostawiam)
+[2025-05-31T14:19:06.654Z] [DEBUG] Analizuję URI: spotify:track:4nva9EpKntUTs6CRSGBCn9 (pos = 76)
+[2025-05-31T14:19:06.654Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4nva9EpKntUTs6CRSGBCn9 (zostawiam)
+[2025-05-31T14:19:06.654Z] [DEBUG] Analizuję URI: spotify:track:3850dYVgOFIXJh5U4BFEWH (pos = 77)
+[2025-05-31T14:19:06.655Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3850dYVgOFIXJh5U4BFEWH (zostawiam)
+[2025-05-31T14:19:06.655Z] [DEBUG] Analizuję URI: spotify:track:2Lhdl74nwwVGOE2Gv35QuK (pos = 78)
+[2025-05-31T14:19:06.655Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2Lhdl74nwwVGOE2Gv35QuK (zostawiam)
+[2025-05-31T14:19:06.656Z] [DEBUG] Analizuję URI: spotify:track:0VjIjW4GlUZAMYd2vXMi3b (pos = 79)
+[2025-05-31T14:19:06.656Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0VjIjW4GlUZAMYd2vXMi3b (zostawiam)
+[2025-05-31T14:19:06.656Z] [DEBUG] Analizuję URI: spotify:track:2RdEC8Ff83WkX7kDVCHseE (pos = 80)
+[2025-05-31T14:19:06.657Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2RdEC8Ff83WkX7kDVCHseE (zostawiam)
+[2025-05-31T14:19:06.657Z] [DEBUG] Analizuję URI: spotify:track:3USxtqRwSYz57Ewm6wWRMp (pos = 81)
+[2025-05-31T14:19:06.657Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3USxtqRwSYz57Ewm6wWRMp (zostawiam)
+[2025-05-31T14:19:06.658Z] [DEBUG] Analizuję URI: spotify:track:3yfqSUWxFvZELEM4PmlwIR (pos = 82)
+[2025-05-31T14:19:06.658Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3yfqSUWxFvZELEM4PmlwIR (zostawiam)
+[2025-05-31T14:19:06.658Z] [DEBUG] Analizuję URI: spotify:track:0v1XpBHnsbkCn7iJ9Ucr1l (pos = 83)
+[2025-05-31T14:19:06.658Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0v1XpBHnsbkCn7iJ9Ucr1l (zostawiam)
+[2025-05-31T14:19:06.659Z] [DEBUG] Analizuję URI: spotify:track:5rAxhWcgFng3s570sGO2F8 (pos = 84)
+[2025-05-31T14:19:06.659Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5rAxhWcgFng3s570sGO2F8 (zostawiam)
+[2025-05-31T14:19:06.659Z] [DEBUG] Analizuję URI: spotify:track:6xtQ23d8GEXgcxyUKPtwc5 (pos = 85)
+[2025-05-31T14:19:06.660Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6xtQ23d8GEXgcxyUKPtwc5 (zostawiam)
+[2025-05-31T14:19:06.660Z] [DEBUG] Analizuję URI: spotify:track:5egqKwgK5r5rvGD1LrtR7J (pos = 86)
+[2025-05-31T14:19:06.660Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5egqKwgK5r5rvGD1LrtR7J (zostawiam)
+[2025-05-31T14:19:06.660Z] [DEBUG] Analizuję URI: spotify:track:6UzeOH4bRPzKTo2wCXMZmC (pos = 87)
+[2025-05-31T14:19:06.661Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6UzeOH4bRPzKTo2wCXMZmC (zostawiam)
+[2025-05-31T14:19:06.661Z] [DEBUG] Analizuję URI: spotify:track:7kxM3UJwN6rHAW5kwdlAHK (pos = 88)
+[2025-05-31T14:19:06.661Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7kxM3UJwN6rHAW5kwdlAHK (zostawiam)
+[2025-05-31T14:19:06.662Z] [DEBUG] Analizuję URI: spotify:track:1kuGVB7EU95pJObxwvfwKS (pos = 89)
+[2025-05-31T14:19:06.662Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1kuGVB7EU95pJObxwvfwKS (zostawiam)
+[2025-05-31T14:19:06.662Z] [DEBUG] Analizuję URI: spotify:track:6HU7h9RYOaPRFeh0R3UeAr (pos = 90)
+[2025-05-31T14:19:06.663Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6HU7h9RYOaPRFeh0R3UeAr (zostawiam)
+[2025-05-31T14:19:06.663Z] [DEBUG] Analizuję URI: spotify:track:5wANPM4fQCJwkGd4rN57mH (pos = 91)
+[2025-05-31T14:19:06.663Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5wANPM4fQCJwkGd4rN57mH (zostawiam)
+[2025-05-31T14:19:06.663Z] [DEBUG] Analizuję URI: spotify:track:4ZtFanR9U6ndgddUvNcjcG (pos = 92)
+[2025-05-31T14:19:06.664Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4ZtFanR9U6ndgddUvNcjcG (zostawiam)
+[2025-05-31T14:19:06.664Z] [DEBUG] Analizuję URI: spotify:track:2tGvwE8GcFKwNdAXMnlbfl (pos = 93)
+[2025-05-31T14:19:06.664Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2tGvwE8GcFKwNdAXMnlbfl (zostawiam)
+[2025-05-31T14:19:06.665Z] [DEBUG] Analizuję URI: spotify:track:0MMyJUC3WNnFS1lit5pTjk (pos = 94)
+[2025-05-31T14:19:06.665Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0MMyJUC3WNnFS1lit5pTjk (zostawiam)
+[2025-05-31T14:19:06.665Z] [DEBUG] Analizuję URI: spotify:track:6SRsiMl7w1USE4mFqrOhHC (pos = 95)
+[2025-05-31T14:19:06.666Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6SRsiMl7w1USE4mFqrOhHC (zostawiam)
+[2025-05-31T14:19:06.666Z] [DEBUG] Analizuję URI: spotify:track:697M5JB8FDIyRXEXgl1pBZ (pos = 96)
+[2025-05-31T14:19:06.666Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:697M5JB8FDIyRXEXgl1pBZ (zostawiam)
+[2025-05-31T14:19:06.666Z] [DEBUG] Analizuję URI: spotify:track:60a0Rd6pjrkxjPbaKzXjfq (pos = 97)
+[2025-05-31T14:19:06.667Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:60a0Rd6pjrkxjPbaKzXjfq (zostawiam)
+[2025-05-31T14:19:06.667Z] [DEBUG] Analizuję URI: spotify:track:3K4HG9evC7dg3N0R9cYqk4 (pos = 98)
+[2025-05-31T14:19:06.667Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3K4HG9evC7dg3N0R9cYqk4 (zostawiam)
+[2025-05-31T14:19:06.668Z] [DEBUG] Analizuję URI: spotify:track:57BrRMwf9LrcmuOsyGilwr (pos = 99)
+[2025-05-31T14:19:06.668Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:57BrRMwf9LrcmuOsyGilwr (zostawiam)
+[2025-05-31T14:19:06.668Z] [DEBUG] Analizuję URI: spotify:track:1Vej0qeQ3ioKwpI6FUbRv1 (pos = 100)
+[2025-05-31T14:19:06.669Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1Vej0qeQ3ioKwpI6FUbRv1 (zostawiam)
+[2025-05-31T14:19:06.669Z] [DEBUG] Analizuję URI: spotify:track:7sA2SKTo1QbTSSYn5YvJC4 (pos = 101)
+[2025-05-31T14:19:06.669Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7sA2SKTo1QbTSSYn5YvJC4 (zostawiam)
+[2025-05-31T14:19:06.670Z] [DEBUG] Analizuję URI: spotify:track:1gAaRSN57UYVRI4eWRyAvP (pos = 102)
+[2025-05-31T14:19:06.670Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1gAaRSN57UYVRI4eWRyAvP (zostawiam)
+[2025-05-31T14:19:06.670Z] [DEBUG] Analizuję URI: spotify:track:0fxGA5lxrdYNYoE7yJxTNZ (pos = 103)
+[2025-05-31T14:19:06.670Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0fxGA5lxrdYNYoE7yJxTNZ (zostawiam)
+[2025-05-31T14:19:06.671Z] [DEBUG] Analizuję URI: spotify:track:7snQQk1zcKl8gZ92AnueZW (pos = 104)
+[2025-05-31T14:19:06.671Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:7snQQk1zcKl8gZ92AnueZW (zostawiam)
+[2025-05-31T14:19:06.671Z] [DEBUG] Analizuję URI: spotify:track:0G21yYKMZoHa30cYVi1iA8 (pos = 105)
+[2025-05-31T14:19:06.671Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0G21yYKMZoHa30cYVi1iA8 (zostawiam)
+[2025-05-31T14:19:06.672Z] [DEBUG] Analizuję URI: spotify:track:4JiEyzf0Md7KEFFGWDDdCr (pos = 106)
+[2025-05-31T14:19:06.672Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4JiEyzf0Md7KEFFGWDDdCr (zostawiam)
+[2025-05-31T14:19:06.672Z] [DEBUG] Analizuję URI: spotify:track:3dPQuX8Gs42Y7b454ybpMR (pos = 107)
+[2025-05-31T14:19:06.673Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3dPQuX8Gs42Y7b454ybpMR (zostawiam)
+[2025-05-31T14:19:06.673Z] [DEBUG] Analizuję URI: spotify:track:2gam98EZKrF9XuOkU13ApN (pos = 108)
+[2025-05-31T14:19:06.673Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2gam98EZKrF9XuOkU13ApN (zostawiam)
+[2025-05-31T14:19:06.674Z] [DEBUG] Analizuję URI: spotify:track:2kQuhkFX7uSVepCD3h29g5 (pos = 109)
+[2025-05-31T14:19:06.674Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2kQuhkFX7uSVepCD3h29g5 (zostawiam)
+[2025-05-31T14:19:06.674Z] [DEBUG] Analizuję URI: spotify:track:4wH4dJgrsxONID6KS2tDQM (pos = 110)
+[2025-05-31T14:19:06.674Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4wH4dJgrsxONID6KS2tDQM (zostawiam)
+[2025-05-31T14:19:06.675Z] [DEBUG] Analizuję URI: spotify:track:0O45fw2L5vsWpdsOdXwNAR (pos = 111)
+[2025-05-31T14:19:06.675Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0O45fw2L5vsWpdsOdXwNAR (zostawiam)
+[2025-05-31T14:19:06.675Z] [DEBUG] Analizuję URI: spotify:track:5hnyJvgoWiQUYZttV4wXy6 (pos = 112)
+[2025-05-31T14:19:06.676Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5hnyJvgoWiQUYZttV4wXy6 (zostawiam)
+[2025-05-31T14:19:06.676Z] [DEBUG] Analizuję URI: spotify:track:2aI21FnmY7TJVKeMaoQZ0t (pos = 113)
+[2025-05-31T14:19:06.676Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2aI21FnmY7TJVKeMaoQZ0t (zostawiam)
+[2025-05-31T14:19:06.676Z] [DEBUG] Analizuję URI: spotify:track:3FAclTFfvUuQYnEsptbK8w (pos = 114)
+[2025-05-31T14:19:06.677Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3FAclTFfvUuQYnEsptbK8w (zostawiam)
+[2025-05-31T14:19:06.677Z] [DEBUG] Analizuję URI: spotify:track:4NeOWqHmlrGRuBvsLJC9rL (pos = 115)
+[2025-05-31T14:19:06.677Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4NeOWqHmlrGRuBvsLJC9rL (zostawiam)
+[2025-05-31T14:19:06.677Z] [DEBUG] Analizuję URI: spotify:track:30cSNer6TV8x2utjULVeQ5 (pos = 116)
+[2025-05-31T14:19:06.678Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:30cSNer6TV8x2utjULVeQ5 (zostawiam)
+[2025-05-31T14:19:06.678Z] [DEBUG] Analizuję URI: spotify:track:1fLlRApgzxWweF1JTf8yM5 (pos = 117)
+[2025-05-31T14:19:06.678Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1fLlRApgzxWweF1JTf8yM5 (zostawiam)
+[2025-05-31T14:19:06.679Z] [DEBUG] Analizuję URI: spotify:track:0sp00HSXkQyqTa6QqM0O8V (pos = 118)
+[2025-05-31T14:19:06.679Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0sp00HSXkQyqTa6QqM0O8V (zostawiam)
+[2025-05-31T14:19:06.679Z] [DEBUG] Analizuję URI: spotify:track:0OYcEfskah1egYHjYRvbg1 (pos = 119)
+[2025-05-31T14:19:06.680Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0OYcEfskah1egYHjYRvbg1 (zostawiam)
+[2025-05-31T14:19:06.680Z] [DEBUG] Analizuję URI: spotify:track:4CWhc9FaMMfBTt4ANjfbOf (pos = 120)
+[2025-05-31T14:19:06.680Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4CWhc9FaMMfBTt4ANjfbOf (zostawiam)
+[2025-05-31T14:19:06.681Z] [DEBUG] Analizuję URI: spotify:track:4Dvkj6JhhA12EX05fT7y2e (pos = 121)
+[2025-05-31T14:19:06.681Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4Dvkj6JhhA12EX05fT7y2e (zostawiam)
+[2025-05-31T14:19:06.681Z] [DEBUG] Analizuję URI: spotify:track:5Ohxk2dO5COHF1krpoPigN (pos = 122)
+[2025-05-31T14:19:06.682Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5Ohxk2dO5COHF1krpoPigN (zostawiam)
+[2025-05-31T14:19:06.682Z] [DEBUG] Analizuję URI: spotify:track:5IL3VPDy5siXiptYHF2aLS (pos = 123)
+[2025-05-31T14:19:06.682Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5IL3VPDy5siXiptYHF2aLS (zostawiam)
+[2025-05-31T14:19:06.683Z] [DEBUG] Analizuję URI: spotify:track:49FYlytm3dAAraYgpoJZux (pos = 124)
+[2025-05-31T14:19:06.683Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:49FYlytm3dAAraYgpoJZux (zostawiam)
+[2025-05-31T14:19:06.683Z] [DEBUG] Analizuję URI: spotify:track:2igwFfvr1OAGX9SKDCPBwO (pos = 125)
+[2025-05-31T14:19:06.684Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:2igwFfvr1OAGX9SKDCPBwO (zostawiam)
+[2025-05-31T14:19:06.684Z] [DEBUG] Analizuję URI: spotify:track:0TwBtDAWpkpM3srywFVOV5 (pos = 126)
+[2025-05-31T14:19:06.684Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0TwBtDAWpkpM3srywFVOV5 (zostawiam)
+[2025-05-31T14:19:06.684Z] [DEBUG] Analizuję URI: spotify:track:1auxYwYrFRqZP7t3s7w4um (pos = 127)
+[2025-05-31T14:19:06.685Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:1auxYwYrFRqZP7t3s7w4um (zostawiam)
+[2025-05-31T14:19:06.685Z] [DEBUG] Analizuję URI: spotify:track:4GewRLEiI4BDTQsoH8BRVV (pos = 128)
+[2025-05-31T14:19:06.685Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4GewRLEiI4BDTQsoH8BRVV (zostawiam)
+[2025-05-31T14:19:06.686Z] [DEBUG] Analizuję URI: spotify:track:6CKoWCWAqEVWVjpeoJXyNH (pos = 129)
+[2025-05-31T14:19:06.686Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:6CKoWCWAqEVWVjpeoJXyNH (zostawiam)
+[2025-05-31T14:19:06.686Z] [DEBUG] Analizuję URI: spotify:track:4KFM3A5QF2IMcc6nHsu3Wp (pos = 130)
+[2025-05-31T14:19:06.687Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:4KFM3A5QF2IMcc6nHsu3Wp (zostawiam)
+[2025-05-31T14:19:06.687Z] [DEBUG] Analizuję URI: spotify:track:5oE6INocVL9viDow5y8QNM (pos = 131)
+[2025-05-31T14:19:06.687Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5oE6INocVL9viDow5y8QNM (zostawiam)
+[2025-05-31T14:19:06.687Z] [DEBUG] Analizuję URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (pos = 132)
+[2025-05-31T14:19:06.688Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (zostawiam)
+[2025-05-31T14:19:06.688Z] [DEBUG] Analizuję URI: spotify:track:0I1DJdLt9BKOb7GWmWxCjo (pos = 133)
+[2025-05-31T14:19:06.688Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:0I1DJdLt9BKOb7GWmWxCjo (zostawiam)
+[2025-05-31T14:19:06.689Z] [INFO] Brak duplikatów na playliście – nic do usunięcia.
+[2025-05-31T14:19:44.104Z] [INFO] Uruchomiono removeDuplicates() dla playlistId: 0ne1ddHpGN6V1rP1hadEgS
+[2025-05-31T14:19:44.105Z] [DEBUG] Sprawdzam/odświeżam token Spotify…
+[2025-05-31T14:19:44.105Z] [DEBUG] Token Spotify OK.
+[2025-05-31T14:19:44.105Z] [INFO] Pobieram wszystkie utwory z playlisty (fetchAllExisting)…
+[2025-05-31T14:19:44.216Z] [INFO] Pobrano 3 utworów z playlisty (ID: 0ne1ddHpGN6V1rP1hadEgS).
+[2025-05-31T14:19:44.216Z] [INFO] Rozpoczynam grupowanie duplikatów (po identycznym URI)…
+[2025-05-31T14:19:44.217Z] [DEBUG] Analizuję URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (pos = 0)
+[2025-05-31T14:19:44.217Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (zostawiam)
+[2025-05-31T14:19:44.217Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 1)
+[2025-05-31T14:19:44.217Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (zostawiam)
+[2025-05-31T14:19:44.218Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 2)
+[2025-05-31T14:19:44.218Z] [WARN] Duplikat! Zapisuję do usunięcia (pos: 2)
+[2025-05-31T14:19:44.218Z] [INFO] Znaleziono w sumie 1 duplikat w 1 różnych utworach:
+[2025-05-31T14:19:44.219Z] [INFO]  • URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ → pozycje do usunięcia: [2]
+[2025-05-31T14:19:44.219Z] [INFO] Oczekuję potwierdzenia usunięcia duplikatów…
+[2025-05-31T14:19:46.677Z] [INFO] Użytkownik potwierdził usunięcie duplikatów.
+[2025-05-31T14:19:46.677Z] [DEBUG] Posortowane pozycje do usunięcia (malejąco): [2]
+[2025-05-31T14:19:46.678Z] [INFO] Rozpoczynam usuwanie duplikatów w pętli…
+[2025-05-31T14:19:46.678Z] [INFO] Usuwam utwór na pozycji 2 (range_start = 2, range_length = 1)
+[2025-05-31T14:19:46.767Z] [ERROR] ❌ Błąd przy usuwaniu pozycji 2: No uris provided
+[2025-05-31T14:19:46.768Z] [INFO] Teraz dodaję z powrotem po jednym egzemplarzu każdego duplikowanego URI…
+[2025-05-31T14:19:46.768Z] [INFO] Dodaję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ do playlisty (po jednokrotnym usunięciu)…
+[2025-05-31T14:19:46.916Z] [INFO] ✔ Dodano utwór spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ. Nowy snapshot: AAAACJ+OExsUmgDH5ZH1T6WYEzXjcXpS
+[2025-05-31T14:19:46.916Z] [INFO] ✅ Cały proces zakończony – duplikaty zostały usunięte i po jednym egzemplarzu przywrócone.
+[2025-05-31T14:23:37.264Z] [INFO] Uruchomiono removeDuplicates() dla playlistId: 0ne1ddHpGN6V1rP1hadEgS
+[2025-05-31T14:23:37.265Z] [DEBUG] Sprawdzam/odświeżam token Spotify…
+[2025-05-31T14:23:37.265Z] [DEBUG] Token Spotify OK.
+[2025-05-31T14:23:37.266Z] [INFO] Pobieram wszystkie utwory z playlisty (fetchAllExisting)…
+[2025-05-31T14:23:37.433Z] [INFO] Pobrano 4 utworów z playlisty (ID: 0ne1ddHpGN6V1rP1hadEgS).
+[2025-05-31T14:23:37.433Z] [INFO] Rozpoczynam grupowanie duplikatów (po identycznym URI)…
+[2025-05-31T14:23:37.434Z] [DEBUG] Analizuję URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (pos = 0)
+[2025-05-31T14:23:37.434Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3oELxRDbAzyvOodhd5FQzB – pozostawiam
+[2025-05-31T14:23:37.435Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 1)
+[2025-05-31T14:23:37.435Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ – pozostawiam
+[2025-05-31T14:23:37.435Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 2)
+[2025-05-31T14:23:37.436Z] [WARN] Duplikat! Zapisuję do usunięcia (pos: 2, uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ)
+[2025-05-31T14:23:37.436Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 3)
+[2025-05-31T14:23:37.436Z] [WARN] Duplikat! Zapisuję do usunięcia (pos: 3, uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ)
+[2025-05-31T14:23:37.437Z] [INFO] Znaleziono w sumie 2 duplikatów w 1 różnych utworach:
+[2025-05-31T14:23:37.437Z] [INFO]  • URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ → pozycje do usunięcia: [2, 3]
+[2025-05-31T14:23:37.437Z] [INFO] Oczekuję potwierdzenia usunięcia duplikatów…
+[2025-05-31T14:23:44.700Z] [INFO] Użytkownik potwierdził usunięcie duplikatów.
+[2025-05-31T14:23:44.701Z] [DEBUG] Posortowane pozycje do usunięcia (malejąco): [3, 2]
+[2025-05-31T14:23:44.701Z] [INFO] Rozpoczynam usuwanie duplikatów…
+[2025-05-31T14:23:44.702Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 3
+[2025-05-31T14:23:44.870Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 3 → No uris provided
+[2025-05-31T14:23:44.870Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 2
+[2025-05-31T14:23:45.029Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 2 → No uris provided
+[2025-05-31T14:23:45.030Z] [INFO] Teraz przywracam po jednym egzemplarzu każdego duplikowanego URI…
+[2025-05-31T14:23:45.030Z] [INFO] Dodaję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ do playlisty (po usunięciu)…
+[2025-05-31T14:23:45.242Z] [INFO] ✔ Dodano utwór spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ. Nowy snapshot: AAAACYYKucq/3HW0ZAiOaW5bAtlGuNU1
+[2025-05-31T14:23:45.243Z] [INFO] ✅ Cały proces zakończony – duplikaty usunięte, pojedyncze egzemplarze przywrócone.
+[2025-05-31T14:28:30.085Z] [INFO] Uruchomiono removeDuplicates() dla playlistId: 0ne1ddHpGN6V1rP1hadEgS
+[2025-05-31T14:28:30.085Z] [DEBUG] Sprawdzam/odświeżam token Spotify…
+[2025-05-31T14:28:30.086Z] [DEBUG] Token Spotify OK.
+[2025-05-31T14:28:30.086Z] [INFO] Pobieram wszystkie utwory z playlisty (fetchAllExisting)…
+[2025-05-31T14:28:30.263Z] [INFO] Pobrano 5 utworów z playlisty (ID: 0ne1ddHpGN6V1rP1hadEgS).
+[2025-05-31T14:28:30.263Z] [INFO] Rozpoczynam grupowanie duplikatów (po identycznym URI)…
+[2025-05-31T14:28:30.264Z] [DEBUG] Analizuję URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (pos = 0)
+[2025-05-31T14:28:30.264Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3oELxRDbAzyvOodhd5FQzB – pozostawiam
+[2025-05-31T14:28:30.265Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 1)
+[2025-05-31T14:28:30.265Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ – pozostawiam
+[2025-05-31T14:28:30.265Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 2)
+[2025-05-31T14:28:30.266Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 2)
+[2025-05-31T14:28:30.266Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 3)
+[2025-05-31T14:28:30.266Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 3)
+[2025-05-31T14:28:30.267Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 4)
+[2025-05-31T14:28:30.267Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 4)
+[2025-05-31T14:28:30.267Z] [INFO] Znaleziono w sumie 3 duplikatów w 1 różnych utworach:
+[2025-05-31T14:28:30.268Z] [INFO]  • URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ → pozycje do usunięcia: [2, 3, 4]
+[2025-05-31T14:28:30.268Z] [INFO] Oczekuję potwierdzenia usunięcia duplikatów…
+[2025-05-31T14:28:35.679Z] [INFO] Użytkownik potwierdził usunięcie duplikatów.
+[2025-05-31T14:28:35.680Z] [DEBUG] Posortowane pozycje do usunięcia (malejąco): [4, 3, 2]
+[2025-05-31T14:28:35.680Z] [INFO] Rozpoczynam usuwanie duplikatów…
+[2025-05-31T14:28:35.681Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 4
+[2025-05-31T14:28:35.798Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 4 → No uris provided
+[2025-05-31T14:28:35.799Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 3
+[2025-05-31T14:28:35.891Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 3 → No uris provided
+[2025-05-31T14:28:35.892Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 2
+[2025-05-31T14:28:36.050Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 2 → No uris provided
+[2025-05-31T14:28:36.051Z] [INFO] Teraz przywracam po jednym egzemplarzu każdego duplikowanego URI…
+[2025-05-31T14:28:36.051Z] [INFO] Dodaję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ do playlisty (po usunięciu)…
+[2025-05-31T14:28:36.189Z] [INFO] ✔ Dodano utwór spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ. Nowy snapshot: AAAACgR9HrW51RvDDBlA0q4WVK8CraxM
+[2025-05-31T14:28:36.190Z] [INFO] ✅ Cały proces zakończony – duplikaty usunięte, pojedyncze egzemplarze przywrócone.
+[2025-05-31T14:36:46.855Z] [INFO] Uruchomiono removeDuplicates() dla playlistId: 0ne1ddHpGN6V1rP1hadEgS
+[2025-05-31T14:36:46.856Z] [DEBUG] Sprawdzam/odświeżam token Spotify…
+[2025-05-31T14:36:46.856Z] [DEBUG] Token Spotify OK.
+[2025-05-31T14:36:46.857Z] [INFO] Pobieram wszystkie utwory z playlisty (fetchAllExisting)…
+[2025-05-31T14:36:46.976Z] [INFO] Pobrano 6 utworów z playlisty (ID: 0ne1ddHpGN6V1rP1hadEgS).
+[2025-05-31T14:36:46.976Z] [INFO] Rozpoczynam grupowanie duplikatów (po identycznym URI)…
+[2025-05-31T14:36:46.977Z] [DEBUG] Analizuję URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (pos = 0)
+[2025-05-31T14:36:46.977Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3oELxRDbAzyvOodhd5FQzB – pozostawiam
+[2025-05-31T14:36:46.978Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 1)
+[2025-05-31T14:36:46.978Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ – pozostawiam
+[2025-05-31T14:36:46.979Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 2)
+[2025-05-31T14:36:46.979Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 2)
+[2025-05-31T14:36:46.980Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 3)
+[2025-05-31T14:36:46.980Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 3)
+[2025-05-31T14:36:46.981Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 4)
+[2025-05-31T14:36:46.981Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 4)
+[2025-05-31T14:36:46.981Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 5)
+[2025-05-31T14:36:46.982Z] [WARN] Duplikat! Zapisuję do usunięcia (uri: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 5)
+[2025-05-31T14:36:46.982Z] [INFO] Znaleziono w sumie 4 duplikatów w 1 różnych utworach:
+[2025-05-31T14:36:46.982Z] [INFO]  • URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ → pozycje do usunięcia: [2, 3, 4, 5]
+[2025-05-31T14:36:46.983Z] [INFO] Oczekuję potwierdzenia usunięcia duplikatów…
+[2025-05-31T14:36:54.570Z] [INFO] Użytkownik potwierdził usunięcie duplikatów.
+[2025-05-31T14:36:54.571Z] [DEBUG] Posortowane pozycje do usunięcia (malejąco): [5, 4, 3, 2]
+[2025-05-31T14:36:54.572Z] [INFO] Rozpoczynam usuwanie duplikatów…
+[2025-05-31T14:36:54.572Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 5
+[2025-05-31T14:36:54.675Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 5 → No uris provided
+[2025-05-31T14:36:54.676Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 4
+[2025-05-31T14:36:54.763Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 4 → No uris provided
+[2025-05-31T14:36:54.764Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 3
+[2025-05-31T14:36:54.920Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 3 → No uris provided
+[2025-05-31T14:36:54.920Z] [INFO] Usuwam utwór URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ na pozycji 2
+[2025-05-31T14:36:55.084Z] [ERROR] ❌ Błąd przy usuwaniu URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ, pos: 2 → No uris provided
+[2025-05-31T14:36:55.085Z] [INFO] Teraz przywracam po jednym egzemplarzu każdego duplikowanego URI…
+[2025-05-31T14:36:55.085Z] [INFO] Dodaję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ do playlisty (po usunięciu)…
+[2025-05-31T14:36:55.226Z] [INFO] ✔ Dodano utwór spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ. Nowy snapshot: AAAACy//mcFhp4lmVJLYPNubMj/FLbyD
+[2025-05-31T14:36:55.227Z] [INFO] ✅ Cały proces zakończony – duplikaty usunięte, pojedyncze egzemplarze przywrócone.
+[2025-05-31T14:40:31.698Z] [INFO] Uruchomiono removeDuplicates() dla playlistId: 0ne1ddHpGN6V1rP1hadEgS
+[2025-05-31T14:40:31.699Z] [DEBUG] Sprawdzam/odświeżam token Spotify…
+[2025-05-31T14:40:31.699Z] [DEBUG] Token Spotify OK.
+[2025-05-31T14:40:31.700Z] [INFO] Pobieram wszystkie utwory z playlisty (fetchAllExisting)…
+[2025-05-31T14:40:31.862Z] [INFO] Pobrano 7 utworów z playlisty (ID: 0ne1ddHpGN6V1rP1hadEgS).
+[2025-05-31T14:40:31.862Z] [INFO] Rozpoczynam grupowanie duplikatów (po identycznym URI)…
+[2025-05-31T14:40:31.863Z] [DEBUG] Analizuję URI: spotify:track:3oELxRDbAzyvOodhd5FQzB (pos = 0)
+[2025-05-31T14:40:31.863Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:3oELxRDbAzyvOodhd5FQzB – pozostawiam
+[2025-05-31T14:40:31.864Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 1)
+[2025-05-31T14:40:31.864Z] [DEBUG] Pierwsze wystąpienie URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ – pozostawiam
+[2025-05-31T14:40:31.864Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 2)
+[2025-05-31T14:40:31.865Z] [WARN] Duplikat! Zapisuję URI do późniejszego usunięcia: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (znaleziono jeszcze raz na pos: 2)
+[2025-05-31T14:40:31.865Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 3)
+[2025-05-31T14:40:31.865Z] [WARN] Duplikat! Zapisuję URI do późniejszego usunięcia: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (znaleziono jeszcze raz na pos: 3)
+[2025-05-31T14:40:31.866Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 4)
+[2025-05-31T14:40:31.866Z] [WARN] Duplikat! Zapisuję URI do późniejszego usunięcia: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (znaleziono jeszcze raz na pos: 4)
+[2025-05-31T14:40:31.866Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 5)
+[2025-05-31T14:40:31.867Z] [WARN] Duplikat! Zapisuję URI do późniejszego usunięcia: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (znaleziono jeszcze raz na pos: 5)
+[2025-05-31T14:40:31.867Z] [DEBUG] Analizuję URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (pos = 6)
+[2025-05-31T14:40:31.867Z] [WARN] Duplikat! Zapisuję URI do późniejszego usunięcia: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ (znaleziono jeszcze raz na pos: 6)
+[2025-05-31T14:40:31.868Z] [INFO] Znaleziono duplikaty dla 1 unikalnych utworów:
+[2025-05-31T14:40:31.868Z] [INFO]  • URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ → wystąpiło wielokrotnie
+[2025-05-31T14:40:31.868Z] [INFO] Oczekuję potwierdzenia usunięcia wszystkich duplikatów (każdego URI raz)…
+[2025-05-31T14:40:38.068Z] [INFO] Użytkownik potwierdził operację usunięcia i przywrócenia pojedynczych kopii.
+[2025-05-31T14:40:38.068Z] [INFO] Usuwam WSZYSTKIE wystąpienia URI: spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ
+[2025-05-31T14:40:38.251Z] [ERROR] ❌ Błąd przy usuwaniu wszystkich spotify:track:5OGZ2Mx4Cs6RCndDRycGBJ → No uris provided
+[2025-05-31T14:40:38.252Z] [INFO] ✅ Cały proces zakończony – duplikaty usunięte, pojedyncze egzemplarze przywrócone.
