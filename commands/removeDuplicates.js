@@ -56,41 +56,50 @@ module.exports = async function removeDuplicates(playlistId) {
     return;
   }
 
-  // 6) Kolejno usuwamy każdą nadmiarową instancję
+  // 6) Zbieramy wszystkie duplikaty do usunięcia i sortujemy od końca
   let removedCount = 0;
+  const allDuplicatesToRemove = [];
+  
   for (const group of dupeGroups) {
-    // sortowane, więc group[0] to pierwszy, pozostałe do usunięcia
+    // sortowane, więc group[0] to pierwszy (zostaje), pozostałe do usunięcia
     group.sort((a, b) => a.pos - b.pos);
     const duplicates = group.slice(1);
-    for (const d of duplicates) {
-      // próbujemy usunąć tylko tę jedną pozycję
-      const trackObj = [{ uri: d.uri, positions: [d.pos] }];
-      let done = false;
-      while (!done) {
-        await ensureToken();
-        try {
-          await spotifyApi.removeTracksFromPlaylist(playlistId, trackObj);
-          removedCount++;
-          done = true;
-          console.log(
-            chalk.magenta(`🗑  Usunięto duplikat "${d.name}" (poz:${d.pos})`)
+    allDuplicatesToRemove.push(...duplicates);
+  }
+  
+  // Sortuj duplikaty od najwyższej pozycji do najniższej
+  // aby usuwanie nie wpływało na pozycje wcześniejszych utworów
+  allDuplicatesToRemove.sort((a, b) => b.pos - a.pos);
+  
+  // Usuwaj każdy duplikat
+  for (const d of allDuplicatesToRemove) {
+    // próbujemy usunąć tylko tę jedną pozycję
+    const trackObj = [{ uri: d.uri, positions: [d.pos] }];
+    let done = false;
+    while (!done) {
+      await ensureToken();
+      try {
+        await spotifyApi.removeTracksFromPlaylist(playlistId, trackObj);
+        removedCount++;
+        done = true;
+        console.log(
+          chalk.magenta(`🗑  Usunięto duplikat "${d.name}" (poz:${d.pos})`)
+        );
+      } catch (err) {
+        if (err.statusCode === 429) {
+          const retry = parseInt(err.headers["retry-after"], 10) || 1;
+          console.warn(
+            chalk.yellow(
+              `⏱  Rate limit, czekam ${retry}s przed ponowną próbą...`
+            )
           );
-        } catch (err) {
-          if (err.statusCode === 429) {
-            const retry = parseInt(err.headers["retry-after"], 10) || 1;
-            console.warn(
-              chalk.yellow(
-                `⏱  Rate limit, czekam ${retry}s przed ponowną próbą...`
-              )
-            );
-            await new Promise((r) => setTimeout(r, retry * 1000));
-          } else {
-            console.error(
-              chalk.red("❌ Błąd przy usuwaniu duplikatu:"),
-              err.body || err.message || err
-            );
-            done = true; // porzucamy dalsze próby tego tracka
-          }
+          await new Promise((r) => setTimeout(r, retry * 1000));
+        } else {
+          console.error(
+            chalk.red("❌ Błąd przy usuwaniu duplikatu:"),
+            err.body || err.message || err
+          );
+          done = true; // porzucamy dalsze próby tego tracka
         }
       }
     }
