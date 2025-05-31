@@ -66,7 +66,7 @@ async function main() {
         await inquirer.prompt({
           type: "input",
           name: "continue",
-          message: "Naciśnij Enter, aby wrócić do menu głównego...",
+          message: "  Naciśnij Enter, aby wrócić do menu głównego...",
         });
         break;
       case "sortPlaylist":
