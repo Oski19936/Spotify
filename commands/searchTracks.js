@@ -474,34 +474,21 @@ module.exports = async function searchTracks() {
     results = results.filter((t) => t.popularity >= +criteria.popularity);
   }
 
-  // Usuń duplikaty wewnętrzne (taki sam tytuł + artyści)
-  const seenTracks = new Map();
-  const deduplicatedResults = [];
+  // Sortuj po popularności PRZED deduplikacją
+  results.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
   
-  for (const track of results) {
+  // Usuń duplikaty wewnętrzne (zachowuje pierwszy = najpopularniejszy)
+  const seen = new Set();
+  results = results.filter(track => {
     const key = track.name.toLowerCase() + "|" + 
                 track.artists.map(a => a.name.toLowerCase()).sort().join(",");
     
-    if (!seenTracks.has(key)) {
-      seenTracks.set(key, track);
-      deduplicatedResults.push(track);
-    } else {
-      // Zachowaj bardziej popularny
-      const existing = seenTracks.get(key);
-      if ((track.popularity || 0) > (existing.popularity || 0)) {
-        seenTracks.set(key, track);
-        const index = deduplicatedResults.findIndex(t => t === existing);
-        if (index !== -1) {
-          deduplicatedResults[index] = track;
-        }
-      }
+    if (seen.has(key)) {
+      return false; // duplikat - odrzuć
     }
-  }
-  
-  results = deduplicatedResults;
-  
-  // Sortuj po popularności
-  results.sort((a, b) => (b.popularity || 0) - (a.popularity || 0));
+    seen.add(key);
+    return true;
+  });
   if (results.length > MAX) {
     results = results.slice(0, MAX);
   }
