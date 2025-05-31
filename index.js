@@ -27,11 +27,15 @@ function header(title) {
 async function main() {
   // 1) wybór / utworzenie playlisty
   let { id: playlistId, name: playlistName } = await selectPlaylist();
-  log("🔒", `Aktywna playlista: ${playlistName} (ID=${playlistId})`);
 
-  // 2) menu główne
   while (true) {
+    // 2) wyświetl header i aktywną playlistę
     header("MENU GŁÓWNE");
+    console.log(chalk.yellow(`● Aktywna playlista: ${playlistName}`));
+    console.log("");
+    console.log("");
+
+    // 3) menu główne
     const { action } = await inquirer.prompt({
       type: "list",
       name: "action",
@@ -57,7 +61,13 @@ async function main() {
         await searchArtists(playlistId);
         break;
       case "removeDuplicates":
+        // 4) Wywołaj removeDuplicates i poczekaj na potwierdzenie Enter przed powrotem do menu
         await removeDuplicates(playlistId);
+        await inquirer.prompt({
+          type: "input",
+          name: "continue",
+          message: "Naciśnij Enter, aby wrócić do menu głównego...",
+        });
         break;
       case "sortPlaylist":
         await sortPlaylist(playlistId);
@@ -72,6 +82,8 @@ async function main() {
           "✔",
           `Przełączono na playlistę: ${playlistName} (ID=${playlistId})`
         );
+        // Po zmianie playlisty, poczekaj, by użytkownik zobaczył komunikat, potem kontynuuj
+        await new Promise((r) => setTimeout(r, 1500));
         break;
       case "exit":
         console.log(chalk.green("✅ Do widzenia!"));
