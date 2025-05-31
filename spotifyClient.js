@@ -1,6 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const SpotifyWebApi = require("spotify-web-api-node");
+const chalk = require("chalk");
 
 // Ścieżki do plików
 const CONFIG_FILE = path.join(__dirname, "config.json");
@@ -71,7 +72,7 @@ async function ensureToken() {
  */
 async function fetchAllExisting(plId = defaultPlaylistId) {
   await ensureToken();
-  console.log(`🚩 Pobieram utwory z playlisty ID=${plId}…`);
+  console.log(`🚩  Pobieram utwory z playlisty ID=${plId}…`);
   const existingSet = new Set();
   const playlistTracks = [];
   let offset = 0,
@@ -98,7 +99,13 @@ async function fetchAllExisting(plId = defaultPlaylistId) {
     offset += items.length;
     if (items.length < 100) break;
   }
-  console.log(`ℹ Pobrano ${playlistTracks.length} utworów.`);
+  console.log(
+    chalk.green(
+      `ℹ   Pobrano ${playlistTracks.length} utwor${
+        playlistTracks.length === 1 ? "" : "ów"
+      }.`
+    )
+  );
   return { existingSet, playlistTracks };
 }
 
