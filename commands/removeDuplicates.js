@@ -9,9 +9,14 @@ const {
 } = require("../spotifyClient");
 
 module.exports = async function removeDuplicates(playlistId) {
-  // 1) Pobierz wszystkie utwory z playlisty
+  // 1) Pobierz wszystkie utwory z playlisty + snapshot_id
   await ensureToken();
   const { playlistTracks } = await fetchAllExisting(playlistId);
+  
+  // Pobierz snapshot_id playlisty
+  const playlistInfo = await spotifyApi.getPlaylist(playlistId);
+  const snapshot_id = playlistInfo.body.snapshot_id;
+  console.log(chalk.blue(`🔍 DEBUG: Playlist snapshot_id: ${snapshot_id}`));
 
   // 2) Grupuj po nazwie + posortowanych artystach
   const groups = {};
@@ -43,10 +48,6 @@ module.exports = async function removeDuplicates(playlistId) {
     console.log(` • ${lines}`);
   });
 
-  // Dodaj opóźnienie aby użytkownik mógł przeczytać logi
-  console.log(chalk.gray("\n⏳ Poczekaj 10 sekund na przeczytanie..."));
-  await new Promise(resolve => setTimeout(resolve, 10000));
-
   // 5) Potwierdzenie
   const { confirm } = await inquirer.prompt({
     type: "confirm",
@@ -77,29 +78,34 @@ module.exports = async function removeDuplicates(playlistId) {
   }
   
   // Sortuj wszystkie duplikaty od najwyższej pozycji do najniższej
-  // aby usuwanie nie wpływało na pozycje wcześniejszych utworów
   allDuplicatesToRemove.sort((a, b) => b.pos - a.pos);
   
   console.log(chalk.blue(`🔍 DEBUG: Kolejność usuwania pozycji: ${allDuplicatesToRemove.map(d => d.pos).join(', ')}`));
+  console.log(chalk.gray("\n⏳ Poczekaj 5 sekund na przeczytanie debug logów..."));
+  await new Promise(resolve => setTimeout(resolve, 5000));
   
-  // NOWE PODEJŚCIE: Usuń tylko jedną pozycję na raz dla każdego URI
-  // Aby uniknąć problemu z duplikatami tego samego URI
+  // Usuń duplikaty jeden po drugim używając pozycji + snapshot_id
   for (const duplicate of allDuplicatesToRemove) {
     let done = false;
-    console.log(chalk.blue(`🔍 DEBUG: Próba usunięcia pojedynczej pozycji ${duplicate.pos} dla URI:${duplicate.uri.slice(-10)}`));
+    console.log(chalk.blue(`🔍 DEBUG: Próba usunięcia pozycji ${duplicate.pos} dla URI:${duplicate.uri.slice(-10)}`));
     
     while (!done) {
       await ensureToken();
       try {
-        // Usuń tylko jedną konkretną pozycję
-        const singleTrack = { uri: duplicate.uri, positions: [duplicate.pos] };
-        await spotifyApi.removeTracksFromPlaylist(playlistId, [singleTrack]);
+        // Usuń konkretną pozycję z snapshot_id
+        const trackToRemove = { 
+          uri: duplicate.uri, 
+          positions: [duplicate.pos] 
+        };
+        const options = { snapshot_id: snapshot_id };
+        
+        await spotifyApi.removeTracksFromPlaylist(playlistId, [trackToRemove], options);
         removedCount++;
         done = true;
         console.log(chalk.magenta(`🗑  Usunięto duplikat "${duplicate.name}" (poz:${duplicate.pos})`));
         
-        // Dodaj małe opóźnienie między usunięciami
-        await new Promise(resolve => setTimeout(resolve, 500));
+        // Dodaj opóźnienie między usunięciami
+        await new Promise(resolve => setTimeout(resolve, 1000));
       } catch (err) {
         if (err.statusCode === 429) {
           const retry = parseInt(err.headers["retry-after"], 10) || 1;
