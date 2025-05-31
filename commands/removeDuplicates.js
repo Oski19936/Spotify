@@ -83,9 +83,9 @@ module.exports = async function removeDuplicates(playlistId) {
     while (!done) {
       await ensureToken();
       try {
-        // Usuń konkretną pozycję tego utworu
-        const trackToRemove = [{ uri: duplicate.uri, positions: [duplicate.pos] }];
-        await spotifyApi.removeTracksFromPlaylist(playlistId, trackToRemove);
+        // Usuń konkretną pozycję tego utworu - format jak w removeTracks.js
+        const trackToRemove = { uri: duplicate.uri, positions: [duplicate.pos] };
+        await spotifyApi.removeTracksFromPlaylist(playlistId, [trackToRemove]);
         removedCount++;
         done = true;
         console.log(
